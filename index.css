@@ -1,0 +1,102 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    user-select: none;
+}
+
+.pos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.calc {
+    width: 360px;
+    height: 700px;
+    border-radius: 15px;
+    background-color: #292f36;
+    color: #efddb2;
+    padding: 5px;
+
+    -webkit-box-shadow: 1px 4px 21px 7px rgba(34, 60, 80, 0.44);
+    -moz-box-shadow: 1px 4px 21px 7px rgba(34, 60, 80, 0.44);
+    box-shadow: 1px 4px 21px 7px rgba(34, 60, 80, 0.44);
+}
+
+.calc h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #efddb2;
+}
+
+.calc-screen {
+    height: 125px;
+    padding-right: 20px;
+    padding-left: 15px;
+    display: grid;
+    justify-items: end;
+    align-items: end;
+    margin-bottom: 50px;
+}
+
+.calc-screen p {
+    font-size: 80px;
+    color: #fff;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 80px;
+    cursor: pointer;
+    user-select: none;
+    margin: 5px;
+}
+
+.btn:hover {
+    filter: brightness(120%);
+}
+
+.btn:active {
+    filter: brightness(90%);
+}
+
+.btn.main {
+    background-color: #2e343b;
+}
+
+.btn.color {
+    background-color: #f35f5f;
+}
+
+.btn.sec {
+    background-color: #363e46;
+}
+
+.btn.ravno {
+    background-color: #efddb2;
+    color: #f35f5f;
+}
+
+.btn.equal {
+    width: 170px;
+}
+.btn.zero {
+    width: 170px; 
+}
+
+.btn.ac {
+    width: 170px;
+}
